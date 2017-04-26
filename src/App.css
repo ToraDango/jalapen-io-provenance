@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 900px;
+}
+
+.background {
+  width: 100%;
+  height: 900px;
+  background-image: url("produce2.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 150%;
+  filter: brightness(60%);
+  position: fixed;
+  z-index: -1;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 45px;
+  position: absolute;
+  left: 20px;
+}
+
+.codeEnter {
+  resize: none;
+  width: 400px;
+  height: 15px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(0,128,128);
+  height: 40px;
+  padding: 5px;
+  color: white;
+}
+
+.App-header h2 {
+  position: relative;
+  top: -15px;
+}
+
+.App-intro {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.info {
+  height: 520px;
+  width: 600px;
+  background-color: rgba(0,128,128, 0.75);
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  padding-top: 5px;
+  animation: info-appear 0.7s ease-in-out;
+}
+
+.stats {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: rgba(0,170,170,1);
+}
+
+.row p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.invisible {
+  display: none;
+}
+
+.text-style {
+  color: white;
+  font-size: 20px;
+}
+
+.emph {
+  color: rgb(100, 224, 78);
+  font-weight: bold;
+}
+
+.label {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  top: 8px;
+  left: -160px;
+}
+
+.score {
+  position: relative;
+  color: rgb(100, 224, 78);
+  font-weight: bold;
+  font-size: 18px;
+  top: -30px;
+  left: 145px;
+}
+
+/* unvisited link */
+.title:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* visited link */
+.title:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* mouse over link */
+.title:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* selected link */
+.title:active {
+    text-decoration: none;
+    color: white;
+}
+
+.takePic {
+  position: relative;
+  top: 20px;
+  color: white;
+}
+
+.takePic:hover {
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes info-appear {
+  from { margin-top: 80px; opacity: 0; }
+  to { margin-top: 40px; opacity: 1;}
+}
