@@ -28,7 +28,7 @@ class App extends Component {
     this.state = {
       value: h_dec,
       styleClass: style,
-      fruit_data: ["Tomato", "Cucumber", "Apple", "Orange", "Lettuce", "Corn", "Wheat"],
+      fruit_data: ["Tomato", "Cucumber", "Apple", "Orange", "Lettuce", "Corn", "Banana"],
       country_data: ["Bhaktapur, Nepal", "Mumbai, India", "Little Rock, Arkansas", "Fresno, California", "Mexico City, Mexico"],
       active: [],
       delay: 100,
